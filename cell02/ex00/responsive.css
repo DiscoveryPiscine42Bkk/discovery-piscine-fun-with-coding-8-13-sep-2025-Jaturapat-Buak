@@ -1,0 +1,21 @@
+section{
+        display: flex;
+    }
+    div{
+        flex: 1;
+        border: 1px solid black;
+        padding: 100px 0 100px 0;
+        font-size: 32px;
+    }
+        div:nth-child(1){
+            background-color: pink;
+        }
+        div:nth-child(2){
+            background-color: greenyellow;
+        }
+    
+    @media (max-width: 600px) {
+      section {
+        flex-direction: column;
+      }
+    }
