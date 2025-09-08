@@ -1,1 +1,1 @@
-echo "$(ls -1 | wc -l)$"
+echo "$( -ls1 | wc -l)$"
